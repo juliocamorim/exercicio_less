@@ -63,8 +63,8 @@ header .container {
   font-weight: bold;
   margin-left: 24px;
 }
-.menu-li a {
-  color: #ffffff;
+.menu-li-a {
+  color: #fff;
   text-decoration: none;
 }
 section {
@@ -84,7 +84,7 @@ section {
 }
 .product-button {
   display: block;
-  background-color: #44bd32;
+  background-color: #1dbe07;
   color: #ffffff;
   text-align: center;
   padding: 8px 0;
@@ -93,5 +93,5 @@ section {
   text-decoration: none;
 }
 .product-button:hover {
-  background-color: #4cd137;
+  background-color: #187909;
 }
