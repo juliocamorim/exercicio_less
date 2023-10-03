@@ -3,9 +3,6 @@
 @breakpointMobile: ~"(max-width: 767px)";
 @breakpointTablet: ~"(min-width: 768px) and (max-width: 1023px)";
 
-.displayFlex {
-    display: flex;
-}
 .width100 {
     width: 100%;
 }
@@ -68,16 +65,16 @@ header .container {
 
 .menu {
     display: flex;
-}
 
-.menu-li {
-    font-weight: bold;
-    margin-left: 24px;
-}
-
-.menu-li-a {
-    color: #fff;
-    text-decoration: none;
+    &-li {
+        font-weight: bold;
+        margin-left: 24px;
+    }
+    
+    &-li-a {
+        color: #colors[textHeaderColor];
+        text-decoration: none;
+    }
 }
 
 section {
